@@ -1,0 +1,596 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800,300italic,italic,500italic,600italic,700italic,800italic);
+@import url(https://fonts.googleapis.com/css?family=Tinos:regular,italic,700,700italic);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  width: 100%;
+  height: 1000px;
+  background-image: url(../img/banner-main-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar-last {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+.navbal-left {
+  display: flex;
+}
+.navbar-links {
+  display: flex;
+  gap: 23px;
+  padding: 40px 100px 0 0px;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.navbal-phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.phone {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 25px;
+}
+.navbar-phone-content {
+  color: #fff;
+  width: 70%;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 40px;
+}
+.navbar-button {
+  background: #ff7400;
+  padding: 14px 19px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.banner-content {
+  margin-top: 204px;
+  margin-right: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.banner-content h1 {
+  color: #d67e35;
+  font-family: Tinos;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.banner-p {
+  color: #d67e35;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.banner-content span {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+}
+.banner-button {
+  width: 137px;
+  height: 47px;
+  background: #ff7400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.block {
+  width: 349px;
+  height: 328px;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.block-content h1 {
+  color: #2c2c2c;
+  font-family: Tinos;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.banner-content {
+  color: #656363;
+  text-align: center;
+  font-family: "Tinos", sans-serif;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.block-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.block-container {
+  display: flex;
+  gap: 50px;
+  transform: translateY(-50%);
+}
+
+.main-content-block {
+  width: 444px;
+  height: 421px;
+}
+.second-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-content h1 {
+  text-align: center;
+  color: #000;
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-content h1 span {
+  color: rgba(214, 126, 52, 1);
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-content p {
+  margin-top: 20px;
+  color: #656363;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.main-numbers {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.a p {
+  color: #bc9060;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.a span {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.content-center {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0 0 0;
+}
+
+.block-main-center {
+  background-image: url(../img/main.png);
+  width: 100%;
+  height: 357px;
+  margin-top: 122px;
+  position: relative;
+}
+
+.block-main-center::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.641);
+  top: 0;
+  z-index: 1;
+  left: 0;
+}
+
+.center-block-content {
+  z-index: 2;
+}
+
+.center-block-button {
+  z-index: 2;
+}
+
+.center-block-content h1 {
+  color: #d67e34;
+  font-family: Tinos;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.center-block-content p {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.center-block-button button {
+  background-color: #ff7400;
+  padding: 15px 19px;
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.block-menu {
+  width: 1130px;
+  height: 680px;
+}
+
+.menu-images {
+  display: flex;
+  gap: 20px;
+}
+.left img {
+  width: 445px;
+  height: 500px;
+}
+
+.right img {
+  width: 160px;
+  height: 160px;
+}
+
+.right {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+
+.block-menu h1 {
+  text-align: center;
+  margin: 140px 0;
+  color: #000;
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.block-menu h1 span {
+  color: #d67e34;
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.block-images-content h1 {
+  margin-top: 70px;
+  color: #000;
+  font-family: Tinos;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.comments-block {
+  width: 100%;
+  height: 550px;
+  background: #e5e5e5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comments {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.comments p {
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.comments img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.comments h1 {
+  margin-top: 20px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.comments span {
+  margin-top: 20px;
+  color: #000;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.restaraunt-menu {
+  margin-top: 152px;
+  background-image: url(../img/banner-img-main.png);
+  width: 100%;
+  height: 1034px;
+  background-size: cover;
+  padding: 298px 0 0 0;
+}
+
+.radial-block {
+  width: 70px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: #d67e34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 5px solid white;
+  position: relative;
+  top: -60px;
+  left: 50px;
+}
+
+.menu-block img {
+  width: 225px;
+  height: 231px;
+  border-radius: 50%;
+}
+
+.menu-block {
+  width: 350px;
+  height: 510px;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 10px;
+}
+.menu-block-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.menu-block-content h1 {
+  color: #000;
+  font-family: Tinos;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu-block-content p {
+  margin-top: 18px;
+  color: #000;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu-block-content button {
+  margin-top: 34px;
+  width: 220px;
+  height: 50px;
+  background: #d67e34;
+  box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 40px;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-block-content button:active {
+  background: #875125;
+}
+
+.menu-blocks {
+  display: flex;
+  gap: 30px;
+}
+
+.galary-images {
+  display: flex;
+  flex-direction: column;
+}
+.galary-main img {
+  width: 538px;
+  height: 275px;
+}
+.galary-footer {
+  display: flex;
+  align-items: center;
+  gap: 33px;
+}
+.galary-footer img {
+  width: 255px;
+  height: 274px;
+  flex-shrink: 0;
+}
+.galery {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.galary-section h1 {
+  margin-top: 101px;
+  margin-bottom: 60px;
+  text-align: center;
+  color: #000;
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.galary-section h1 span {
+  color: rgba(214, 126, 52, 1);
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cookes h1 {
+  margin-top: 100px;
+  margin-bottom: 110px;
+  text-align: center;
+  color: #000;
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cookes h1 span {
+  color: rgba(214, 126, 52, 1);
+  font-family: Tinos;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.cookers-img img {
+  width: 350px;
+  height: 462px;
+}
+
+.cookers-img {
+  margin-left: -22px;
+  display: flex;
+  gap: 30px;
+}
+
+.footer img {
+  width: 100%;
+  height: 732px;
+  background-size: cover;
+}
+.footer {
+  margin-top: 100px;
+}
