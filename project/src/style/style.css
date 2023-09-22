@@ -68,6 +68,10 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  transition: all .3s ease-ine;
+}
+.navbar-links a:hover{
+  color: #d67e35;
 }
 .navbal-phone {
   display: flex;
@@ -100,6 +104,10 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 25px;
+  transition: all .3s ease-ine;
+}
+.navbar-button:active{
+  background: #875125;
 }
 
 .banner-content {
@@ -147,8 +155,13 @@ body {
   font-family: Open Sans;
   font-size: 14px;
   font-style: normal;
+  cursor: pointer;
   font-weight: 700;
   line-height: normal;
+}
+
+.banner-button:active{
+  background: #875125;
 }
 .block {
   width: 349px;
@@ -160,6 +173,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: all .0s ease;
 }
 .block-content h1 {
   color: #2c2c2c;
@@ -169,6 +183,9 @@ body {
   font-weight: 400;
   line-height: normal;
   margin-bottom: 20px;
+}
+.block:hover{
+transform: translateY(-10%);
 }
 
 .banner-content {
